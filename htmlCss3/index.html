@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h1>FORMLAR</h1>
+    <form action="kaydet.php">
+      <label for="name" class="label">Adınız:</label>
+      <input
+        class="input"
+        type="text"
+        id="name"
+        name="name"
+        value=""
+        placeholder="İsminizi giriniz..."
+      />
+      <br />
+
+      <label for="password" class="label">Şifreniz:</label>
+      <input
+        class="input"
+        type="password"
+        id="password"
+        name="password"
+        value=""
+        required=""
+        placeholder="Şifrenizi giriniz"
+      />
+      <br />
+
+      <label for="email" class="label">Email:</label>
+      <input
+        class="input"
+        type="email"
+        id="email"
+        name="email"
+        value=""
+        placeholder="Emailinizi giriniz"
+      />
+      <br />
+
+      <label for="number" class="label">Yaşınız:</label>
+      <input
+        class="input"
+        type="number"
+        id="number"
+        name="years"
+        value=""
+        placeholder="Yaşınızı giriniz"
+        min="0"
+        max="100"
+      />
+      <br />
+      <label for="comment" class="label">Bize yazın</label>
+      <textarea name="text-area" id="comment" rows="7"></textarea>
+      <br />
+
+      <button class="btn" type="submit">
+        <i class="far fa-save"></i> Gönder
+      </button>
+
+      <button class="btn" type="reset">
+        <i class="far fa-trash-alt"></i> Temizle
+      </button>
+    </form>
+  </body>
+</html>

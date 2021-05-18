@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+img {
+  width: 30%;
+}
+
+.kutu {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.kutu.orta {
+  background: wheat;
+  width: 100%;
+  margin: 15px;
+}
+
+.kutu.alt {
+  width: 70%;
+  background: linear-gradient(rgb(147, 147, 204), grey);
+}
+
+.kutu1 {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  float: left; /*  blok nesneleri yanyana yazmak icin kullanılır */
+}
+
+.kutu1.sarı {
+  width: 40%;
+  background: yellow;
+}
+
+.kutu1.yesil {
+  width: 20%;
+  background: green;
+}
+
+.kutu1.kırmızı {
+  width: 30%;
+  background: red;
+}
+
+.kutu1.mavi {
+  width: 10%;
+  background: blue;
+}
+
+.kutu1.mor {
+  width: 100%;
+  background: blueviolet;
+}
+
+/*  float: left kullanıldığında alt satıra gecildiğinde alt satır üst satırın alanının bir kısmını isgal edebilir. Bu problemi cozebilmek icin asağıdaki cozum kullanılır 
+.clearfix {
+  clear: both;
+} */

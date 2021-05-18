@@ -150,7 +150,8 @@
 }
 
 .submit button :hover {
-  background-color: rgb(46, 15, 184);
+  background-color: white;
+  color: rgb(49, 115, 202);
 }
 
 .submit button a {
